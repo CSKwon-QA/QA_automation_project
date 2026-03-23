@@ -29,3 +29,4 @@ def driver():
     # 3. 모든 테스트가 끝나면 깔끔하게 종료
     print("\n🏁 [Appium] 테스트 종료 및 앱 닫기")
     driver.quit()
+
