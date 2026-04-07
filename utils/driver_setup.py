@@ -21,7 +21,7 @@ def driver():
     options.no_reset = True
 
     # 2. Appium 서버에 연결하여 스마트폰 제어 권한 얻기
-    driver = webdriver.Remote('http://127.0.0.1:4723', options=options)
+    driver = webdriver.Remote('127.0.0.1:4723', options=options)
 
     # 테스트 파일들에게 driver(제어권)를 넘겨줌
     yield driver
